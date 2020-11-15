@@ -20,7 +20,7 @@ export class HomePage implements OnInit {
       redirectTo:'/action-sheet'
     },
     {
-      icon:'airplane-outline',
+      icon:'alert-circle-outline',
       name:'Alert',
       redirectTo:'/alert'
     }
