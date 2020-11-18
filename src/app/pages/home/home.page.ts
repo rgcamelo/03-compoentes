@@ -39,6 +39,26 @@ export class HomePage implements OnInit {
       name:'Cards',
       redirectTo:'/card'
     },
+    {
+      icon:'checkmark-circle-outline',
+      name:'CheckMate',
+      redirectTo:'/check'
+    },
+    {
+      icon:'calendar-outline',
+      name:'DateTime',
+      redirectTo:'/date-time'
+    },
+    {
+      icon:'car-outline',
+      name:'Fab',
+      redirectTo:'/fab'
+    },
+    {
+      icon:'grid-outline',
+      name:'Grid',
+      redirectTo:'/grid'
+    },
   ];
 
   constructor() { }
